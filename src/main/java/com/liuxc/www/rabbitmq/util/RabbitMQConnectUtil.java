@@ -29,7 +29,8 @@ public class RabbitMQConnectUtil {
         //创建连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //设置ip
-        factory.setHost("192.168.2.101");
+        factory.setHost("192.168.2.105");
+       // factory.setHost("192.168.20.85");
         //设置AMQP协议端口
         factory.setPort(5672);
         //设置虚拟主机
